@@ -1,6 +1,5 @@
 from greetings import greetings
 
-print('What\'s your name?')
-n = input()
-g = Greetings(n)
+name = input("give me a name")
+g = greetings(n)
 print(g.say_hi())
